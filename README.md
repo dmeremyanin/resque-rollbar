@@ -1,6 +1,6 @@
 # Resque::Rollbar [![Build Status](https://travis-ci.org/dimko/resque-rollbar.png)](https://travis-ci.org/dimko/resque-rollbar)
 
-Resque failure backend for sending exceptions to [Rollbar](https://rollbar.com).
+Resque failure backend for reporting exceptions to [Rollbar](https://rollbar.com).
 
 ## Installation
 
