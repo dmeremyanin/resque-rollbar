@@ -5,10 +5,7 @@ module Resque
   module Failure
     class Rollbar < Base
       def save
-        ::Rollbar.notify_exception exception, {
-          :payload_class => payload['class'].to_s,
-          :payload_args => payload['args'].inspect
-        }
+        ::Rollbar.notify_exception(exception, payload)
       end
     end
   end
