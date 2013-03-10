@@ -19,5 +19,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'resque'
   gem.add_dependency 'rollbar'
 
-  gem.add_development_dependency 'rspec', '~> 2.5'
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'bundler', '~> 1.0'
+  gem.add_development_dependency 'rspec',   '~> 2.5'
 end
