@@ -1,4 +1,4 @@
-# Resque::Rollbar [![Build Status](https://api.travis-ci.org/repositories/dimko/resque-rollbar.png)](https://travis-ci.org/dimko/resque-rollbar)
+# Resque::Rollbar [![Build Status](https://travis-ci.org/dimko/resque-rollbar.png?branch=master)](https://travis-ci.org/dimko/resque-rollbar)
 
 Resque failure backend for reporting exceptions to [Rollbar](https://rollbar.com).
 
