@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-Add these lines to your resque's config:
+In your resque's config:
 
 ```ruby
 require 'resque/failure/multiple'
