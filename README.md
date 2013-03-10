@@ -22,7 +22,7 @@ In your resque's config:
 
 ```ruby
 require 'resque/failure/multiple'
-require 'resque-rollbar'
+require 'resque/rollbar'
 
 Resque::Failure::Multiple.classes = [ Resque::Failure::Redis, Resque::Failure::Rollbar ]
 Resque::Failure.backend = Resque::Failure::Multiple

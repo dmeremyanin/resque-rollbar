@@ -1,2 +1,2 @@
 require 'rspec'
-require 'resque-rollbar'
+require 'resque/rollbar'
