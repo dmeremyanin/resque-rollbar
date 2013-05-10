@@ -5,7 +5,7 @@ module Resque
   module Failure
     class Rollbar < Base
       def save
-        ::Rollbar.notify_exception(exception, payload)
+        ::Rollbar.report_exception(exception, payload)
       end
     end
   end
