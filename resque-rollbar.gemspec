@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.add_dependency 'resque'
-  gem.add_dependency 'rollbar', '~> 0.8'
+  gem.add_dependency 'rollbar', '~> 0.12'
 
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'json'
