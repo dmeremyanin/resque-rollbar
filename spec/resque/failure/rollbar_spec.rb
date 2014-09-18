@@ -10,5 +10,7 @@ describe Resque::Failure::Rollbar do
     Rollbar.should_receive(:report_exception).with(exception, payload)
     backend = Resque::Failure::Rollbar.new(exception, worker, queue, payload)
     backend.save
+
+    expect(Rollbar.configuration.use_async).to be false
   end
 end
