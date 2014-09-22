@@ -7,6 +7,9 @@ rvm:
   - jruby-18mode
   - jruby-19mode
   - rbx
+gemfile:
+  - gemfiles/rollbar-0.8.x.gemfile
+  - gemfiles/rollbar-1.0.x.gemfile
 matrix:
   allow_failures:
     - rvm: rbx
