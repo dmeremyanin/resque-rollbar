@@ -1,8 +1,10 @@
-# Resque::Rollbar [![Build Status](https://travis-ci.org/dimko/resque-rollbar.png?branch=master)](https://travis-ci.org/dimko/resque-rollbar)
+## Resque::Rollbar
+
+[![Travic CI](http://img.shields.io/travis/dimko/resque-rollbar.svg)](https://travis-ci.org/dimko/resque-rollbar)
 
 Resque failure backend for reporting exceptions to [Rollbar](https://rollbar.com).
 
-## Installation
+### Installation
 
 Add this line to your application's Gemfile:
 
@@ -16,7 +18,7 @@ Or install it yourself as:
 
     $ gem install resque-rollbar
 
-## Usage
+### Usage
 
 In your resque's config:
 
@@ -29,7 +31,7 @@ Resque::Failure::Multiple.classes = [ Resque::Failure::Redis, Resque::Failure::R
 Resque::Failure.backend = Resque::Failure::Multiple
 ```
 
-## Contributing
+### Contributing
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
