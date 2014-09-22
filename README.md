@@ -1,6 +1,6 @@
 ## Resque::Rollbar
 
-[![Travic CI](http://img.shields.io/travis/dimko/resque-rollbar.svg)](https://travis-ci.org/dimko/resque-rollbar)
+[![Build Status](https://travis-ci.org/dimko/resque-rollbar.svg)](https://travis-ci.org/dimko/resque-rollbar)
 
 Resque failure backend for reporting exceptions to [Rollbar](https://rollbar.com).
 
