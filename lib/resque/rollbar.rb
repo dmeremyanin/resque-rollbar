@@ -5,4 +5,5 @@ Resque.before_first_fork do
   ::Rollbar.configure do |config|
     config.use_async = false
   end
+  ::Rollbar.reset_notifier!
 end
