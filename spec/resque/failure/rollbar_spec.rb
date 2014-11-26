@@ -7,7 +7,7 @@ describe Resque::Failure::Rollbar do
     queue     = 'test'
     payload   = { 'class' => Object, 'args' => 89 }
 
-    expect(Rollbar).to receive(:report_exception).with(exception, payload)
+    expect(Rollbar.notifier).to receive(:log).with('error', exception, payload)
     backend = Resque::Failure::Rollbar.new(exception, worker, queue, payload)
     backend.save
   end
