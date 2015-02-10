@@ -15,14 +15,14 @@ describe Resque::Failure::Rollbar do
   end
 
   context 'with Rollbar version > 1.3' do
-    let(:payload_with_options) { payload.merge(:use_exception_level_filters => true) }
+    let(:rollbar_payload) { payload.merge(:use_exception_level_filters => true) }
 
     before do
       allow(backend).to receive(:rollbar_version).and_return('1.4.0')
     end
 
     it 'sends the :use_exception_level_filters option' do
-      expect(Rollbar.notifier).to receive(:error).with(exception, payload_with_options)
+      expect(Rollbar.notifier).to receive(:error).with(exception, rollbar_payload)
       backend.save
     end
   end
