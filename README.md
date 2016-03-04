@@ -1,6 +1,7 @@
 ## Resque::Rollbar
 
-[![Build Status](https://travis-ci.org/dimko/resque-rollbar.svg)](https://travis-ci.org/dimko/resque-rollbar)
+[![Gem Version](https://badge.fury.io/rb/resque-rollbar.svg)](https://badge.fury.io/rb/resque-rollbar)
+[![Build Status](https://travis-ci.org/dimko/resque-rollbar.svg?branch=master)](https://travis-ci.org/dimko/resque-rollbar)
 
 Resque failure backend for reporting exceptions to [Rollbar](https://rollbar.com).
 
