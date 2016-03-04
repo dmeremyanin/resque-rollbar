@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rollbar', '~> 1.2.0'
+gem 'rollbar', '~> 2.0'
 gemspec :path => '../'
 
 platforms :rbx do

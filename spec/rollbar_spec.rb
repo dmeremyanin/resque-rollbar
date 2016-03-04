@@ -13,8 +13,8 @@ describe 'resque-rollbar' do
         end
       end
 
-      it 'disables asyc reporting from the resque process' do
-        expect(Rollbar.configuration.use_async).to be_falsey
+      it 'disables async reporting from the resque process' do
+        expect(Rollbar.configuration.use_async).to be false
       end
     end
 
